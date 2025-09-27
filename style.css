@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilização da seção principal do currículo */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.foto {
+    height: 100px;
+    width: 100px;
+    border-radius: 100vh;
+}
+/* Título principal */
+h1 {
+    color: #2c3e50; /* Cor escura para o título */
+    text-align: center;
+    border-bottom: 2px solid #3498db; /* Linha azul para destaque */
+    padding-bottom: 10px;
+}
+
+/* Títulos de seção */
+h2 {
+    color: #3498db; /* Cor azul para os títulos de seção */
+    border-left: 4px solid #3498db; /* Barra vertical azul */
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+/* Estilização das listas */
+ul {
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0;
+}
+
+ul li {
+    background-color: #ecf0f1;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Para as informações de experiência profissional, adiciona um espaçamento extra */
+section:nth-of-type(4) li {
+    margin-bottom: 20px;
+}
